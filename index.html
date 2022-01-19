@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="www.leoleiva.ar is a personal portfolio HTML template with clean and elegant design" />
+  <meta name="keywords" content="Leo, Leiva, leocab, html, css3, bootstrap, javascript, python, django, vue, git, github, developer, fullstack, design, creative, onepage, 
+    clean, modern, e-comerce, business, parallax" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="js/demo-JSON-translation-data.js"></script>
+  <title>Leo Leiva | Developer</title>
+  <!--css styles-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/lightbox.css" />
+  <link rel="stylesheet" href="css/jquery.pagepiling.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Martel:200,300,400,600,700,800,900%7CRaleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CRoboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <!---title logo icon-->
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <!-- Respond.js IE8 support media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div id="myTraduce">
+  <div id="pagepiling" class="imgBg">
+    <!-- Start Preloader -->
+    <div class="preloader">
+      <div class="preloader-img"></div>
+    </div>
+    <!-- End Preloader -->
+      <!--Start Header-->
+      <header>
+        <div class="logo-area">
+          <div class="glitch" data-text="LeoLeiva.Ar">LeoLeiva.Ar</div>
+        </div>
+        <div class="header-info-area">
+          <a class="info-btn" id="header-info-btn" href="#header-info-bar">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+          </a>
+          <div id="header-info-bar">
+            <div class="close-animatedModal close-header-info-bar">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-content">
+              <nav class="menu" id="menu">
+                <ul id="mainMenu">
+                  <li data-menuanchor="home" class="active">
+                    <a href="#home">{{ navMenu[0].home }}</a>
+                  </li>
+                  <li data-menuanchor="about"><a href="#about">{{ navMenu[0].about }}</a></li>
+                  <li data-menuanchor="myskills">
+                    <a href="#myskills">{{ navMenu[0].skills }}</a>
+                  </li>
+                  <li data-menuanchor="resume">
+                    <a href="#resume">{{ navMenu[0].resume }}</a>
+                  </li>
+                  <li data-menuanchor="portfolio">
+                    <a href="#portfolio">{{ navMenu[0].portfolio }}</a>
+                  </li>
+                  <li data-menuanchor="contact">
+                    <a href="#contact">{{ navMenu[0].contact }}</a>
+                  </li>
+                </ul>
+                <div class="row">
+                  <div class="btn col-sm-2 justify-content-center" @click="spanishClick"><img
+                      src="https://img.icons8.com/emoji/48/000000/argentina-emoji.png" /></div>
+                  <div class="btn col-sm-2 justify-content-center" @click="englishClick"><img
+                      src="https://img.icons8.com/emoji/48/000000/united-kingdom-emoji.png" /></div>
+                </div>
+              </nav>
+              <!-- Start CV area-->
+              <div class="curriculum" id="curriculum">
+                <div class="container">
+                  <div class="row">
+                    <h5>{{ navMenu[0].CV }}:</h5>
+                    <div class="curriculum-form">
+                      <a href="https://www.leoleiva.ar/CV-LeoLeiva.pdf" target="_blank">
+                        <button class="submit-btn">
+                          <span>{{ navMenu[0].downloadCV }}</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--End CV area -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--End Header-->
+
+      <!--Start Welcome Section-->
+      <section class="welcome-area home animated-text section pp-scrollable" id="welcome-area">
+        <div class="particle-bg" id="welcome-image-area">
+          <div id="particleJS-js" class="particle-front"></div>
+          <div class="content-container">
+            <div class="overlayImg"></div>
+            <div class="title-small">
+              <p>HOME</p>
+            </div>
+            <div class="display-table">
+              <div class="display-content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="welcome-text">
+                        <div class="type-wrap">
+                          <div id="typed-strings">
+                            <h1>I'm <span>Leo Leiva</span></h1>
+                            <h1>I'm a <span>Developer</span></h1>
+                          </div>
+                          <span id="typed"></span>
+                        </div>
+                        <p>
+                          {{ myWelcome[0].welcome }}
+                        </p>
+                        <div class="social-icons">
+                          <a href="https://www.facebook.com/LeoLeivaCAB/" target="_blank"><i class="fab fa-facebook-f fa-1x"
+                              aria-hidden="true"></i></a>
+                          <a href="https://twitter.com/LeoLeivaCAB" target="_blank"><i class="fab fa-twitter fa-1x"></i></a>
+                          <a href="https://github.com/LeoLeiva" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+                          <a href="https://www.linkedin.com/in/leoleivacab/" target="_blank"><i
+                              class="fab fa-linkedin-in fa-1x"></i></a>
+                          <a href="https://api.whatsapp.com/send?phone=543516200346" target="_blank"><i
+                              class="fab fa-whatsapp fa-1x"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Welcome Section-->
+
+      <!--Start About Section-->
+      <section class="about section pp-scrollable" id="about">
+        <div class="about-header">
+          <div class="title-small">
+            <p>ABOUT ME</p>
+          </div>
+        </div>
+        <div class="content-container">
+          <div class="display-table">
+            <div class="display-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 col-md-12">
+                    <div class="about-img mx-auto">
+                      <figure><img src="images/myprofile.jpg" alt="" class="my-photo"></figure>
+                      <div class="img-overlay"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-12">
+                    <div class="about-content">
+                      <h4 class="section-title">{{ aboutMe[0].title }}</h4>
+                      <p class="about-text">
+                        {{ aboutMe[0].about }}
+                      </p>
+                      <div class="skills">
+                        <div class="progressbar-area">
+                          <h6>{{ aboutMe[0].spanish }}</h6>
+                          <div class="progress">
+                            <div class="progress-bar prog1" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                              aria-valuemax="100" data-progress="100%">
+                              <span>100%</span>
+                            </div>
+                          </div>
+                          <h6>{{ aboutMe[0].english }}</h6>
+                          <div class="progress">
+                            <div class="progress-bar prog2" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                              aria-valuemax="100" data-progress="50%">
+                              <span>50%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- 
+                      <div class="skills">
+                        <div class="progressbar-area">
+                          <h6>Html</h6>
+                          <div class="progress">
+                            <div
+                              class="progress-bar prog1"
+                              role="progressbar"
+                              aria-valuenow="80"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              data-progress="80%"
+                            >
+                              <span>80%</span>
+                            </div>
+                          </div>
+                          <h6>Css</h6>
+                          <div class="progress">
+                            <div
+                              class="progress-bar prog2"
+                              role="progressbar"
+                              aria-valuenow="90"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              data-progress="94%"
+                            >
+                              <span>90%</span>
+                            </div>
+                          </div>
+                          <h6>JavaScript</h6>
+                          <div class="progress">
+                            <div
+                              class="progress-bar prog3"
+                              role="progressbar"
+                              aria-valuenow="86"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              data-progress="86%"
+                            >
+                              <span>86%</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--End About Section-->
+
+      <!--Start Services Section-->
+      <section class="myskills section pp-scrollable" id="skills">
+        <div class="content-container">
+          <div class="display-table">
+            <div class="display-content">
+              <div class="service-header">
+                <div class="title-small">
+                  <p>SKILLS</p>
+                </div>
+                <h4 class="section-title">{{ mySkills[0].title }}</h4>
+              </div>
+              <div class="service-content">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-lg">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="">
+                        <p class="content-title">HTML5</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="">
+                        <p class="content-title">CSS3</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="">
+                        <p class="content-title">BOOTSTRAP</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/javascript-logo-1.png" alt="">
+                        <p class="content-title">JAVASCRIPT</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/python.png" alt="">
+                        <p class="content-title">PYTHON</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/django.png" alt="">
+                        <p class="content-title">DJANGO</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" />
+                        <p class="content-title">MYSQL</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/add-database.png" alt="">
+                        <p class="content-title">SQLITE3</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="">
+                        <p class="content-title">WORDPRESS</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/joomla.png" alt="">
+                        <p class="content-title">JOOMLA</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/git.png" alt="">
+                        <p class="content-title">GIT</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="">
+                        <p class="content-title">GITHUB</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/windows-logo.png" alt="">
+                        <p class="content-title">WINDOWS</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="mx-auto service-item">
+                        <img src="https://img.icons8.com/color/48/000000/linux.png" alt="">
+                        <p class="content-title">LINUX</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Services Section-->
+
+      <!--Start Resume Section-->
+      <section class="resume section pp-scrollable" id="resume">
+        <div class="content-container">
+          <div class="display-table">
+            <div class="display-content">
+              <div class="resume-header">
+                <div class="title-small">
+                  <p>MY RESUME</p>
+                </div>
+                <h4 class="section-title">{{ myResume[0].title }}</h4>
+              </div>
+              <div class="resume-content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="education">
+                        <div class="resume-item">
+                          <p class="res-descripcion">{{ myStudy[0].studies }}</p>
+                        </div>
+                        <div class="resume-item">
+                          <p class="res-year">2020</p>
+                          <p class="res-title">Fullstack Java</p>
+                          <p>{{ myStudy[0].finishjava }}</p>
+                        </div>
+                        <div class="resume-item">
+                          <p class="res-year">2015</p>
+                          <p class="res-title">{{ myStudy[0].python }}</p>
+                          <p>{{ myStudy[0].finishpython }}</p>
+                          <!-- <a href="images/certificados/python.jpg" class="link" data-lightbox="image-cert-python"><i
+                          class="far fa-eye"></i>Ver certificado</a> -->
+                          <div class="link-cert">
+                            <a href="images/certificados/python.jpg" data-lightbox="image-cert-python">
+                              <p><i class="far fa-hand-point-right"></i>{{ myStudy[0].certpython }}</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="resume-item">
+                          <p class="res-year">2004</p>
+                          <p class="res-title">AES</p>
+                          <p>
+                            {{ myStudy[0].titleaes }}
+                          </p>
+                        </div>
+                        <div class="resume-item">
+                          <p class="res-year">1997-2010</p>
+                          <p class="res-title">Ing. Carlos A. Cassaffousth</p>
+                          <p class="pre-formatted">{{ myStudy[0].titlecassa }}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="experience">
+                        <div class="resume-item">
+                          <p class="res-descripcion">{{ myExperience[0].experience }}</p>
+                        </div>
+                        <div class="resume-item">
+                          <p class="res-year">2009-{{ myExperience[0].current }}</p>
+                          <p class="res-title">{{ myExperience[0].technical }}</p>
+                          <p>
+                            {{ myExperience[0].descriptiontech }}
+                          </p>
+                        </div>
+                        <div class="resume-item">
+                          <p class="res-year">2004-2009</p>
+                          <p class="res-title">Italcel</p>
+                          <p>
+                            {{ myExperience[0].descriptioncell }}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Resume Section-->
+
+      <!--Start Portfolio Section-->
+      <section class="portfolio section pp-scrollable" id="portfolio">
+        <div class="content-container">
+          <div class="display-table">
+            <div class="display-content">
+              <div class="portfolio-header">
+                <div class="title-small">
+                  <p>SEE MY WORKS</p>
+                </div>
+                <h4 class="section-title">Portfolio</h4>
+              </div>
+              <div class="portfolio-content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                      <div class="portfolio-content-head">
+                        <ul class="controls">
+                          <li class="filter" data-filter="all">{{ myPortTitle[0].all }}</li>
+                          <li class="filter" data-filter=".python">PYTHON</li>
+                          <li class="filter" data-filter=".django">DJANGO</li>
+                          <li class="filter" data-filter=".flask">FLASK</li>
+                          <li class="filter" data-filter=".tkinter">TKINTER</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                      <div class="portfolio-content-items">
+                        <div class="row">
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4 mix python django">
+                            <div class="contenedor-img look-portfolio mx-auto">
+                              <!-- <picture>
+                              <source srcset="images/portfolio/prestagenda.webp" type="image/webp" class="img-fluid">
+                              <source srcset="images/portfolio/prestagenda.png"  type="image/png" class="img-fluid">
+                              <img src="images/portfolio/prestagenda.png" class="img-fluid">
+                            </picture> -->
+                              <img src="images/portfolio/prestagenda.webp" class="img-fluid">
+                              <div class="mascara">
+                                <h2>Python - Django</h2>
+                                <p>{{ myPortfolio[0].prestagenda }}</p>
+                                <div class="link-bottom">
+                                  <a href="images/portfolio/prestagenda.png" class="link"
+                                    data-lightbox="image-prestagenda"><i class="far fa-eye"></i></a>
+                                  <a href="https://www.prestagenda.com.ar" class="link" target="_blank"><i
+                                      class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4 mix python django">
+                            <div class="contenedor-img look-portfolio mx-auto">
+                              <img src="images/portfolio/etsylar.png" class="img-fluid">
+                              <div class="mascara">
+                                <h2>Python - Django</h2>
+                                <p>{{ myPortfolio[0].etsylar }}</p>
+                                <div class="link-bottom">
+                                  <a href="images/portfolio/etsylar.png" class="link" data-lightbox="image-etsylar"><i
+                                      class="far fa-eye"></i></a>
+                                  <a href="#" class="link" target="_blank"><i class="fa fa-link"
+                                      aria-hidden="true"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4 mix python flask">
+                            <div class="contenedor-img look-portfolio mx-auto">
+                              <img src="images/portfolio/reinolibre.png" class="img-fluid">
+                              <div class="mascara">
+                                <h2>Python - Flask</h2>
+                                <p>{{ myPortfolio[0].reinolibre }}</p>
+                                <div class="link-bottom">
+                                  <a href="https://github.com/LeoLeiva/Royalty-free-image-search-engine" target="_blank"
+                                    class="link"><i class="fab fa-github"></i></a>
+                                  <a href="images/portfolio/reinolibre.png" class="link"
+                                    data-lightbox="image-reinolibre"><i class="far fa-eye"></i></a>
+                                  <a href="http://www.reinolibre.tk" class="link" target="_blank"><i class="fa fa-link"
+                                      aria-hidden="true"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4 mix python">
+                            <div class="contenedor-img look-portfolio mx-auto">
+                              <img src="images/portfolio/cotizador.png" class="img-fluid">
+                              <div class="mascara">
+                                <h2>Python</h2>
+                                <p>{{ myPortfolio[0].dolartelegram }}</p>
+                                <div class="link-bottom">
+                                  <a href="https://github.com/LeoLeiva/Bot-Telegram-Cotizador-Moneda-Argentina"
+                                    target="_blank" class="link"><i class="fab fa-github"></i></a>
+                                  <a href="images/portfolio/cotizador.png" class="link"
+                                    data-lightbox="image-bot-cotizador"><i class="far fa-eye"></i></a>
+                                  <a href="https://t.me/Cotizacion_monedas_bot" class="link" target="_blank"><i
+                                      class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4 mix python">
+                            <div class="contenedor-img look-portfolio mx-auto">
+                              <img src="images/portfolio/mp3ytdl.png" class="img-fluid">
+                              <div class="mascara">
+                                <h2>Python</h2>
+                                <p>{{ myPortfolio[0].mp3telegram }}</p>
+                                <div class="link-bottom">
+                                  <a href="https://github.com/LeoLeiva/MP3-Youtube-Downloader-Bot-Telegram" class="link"
+                                    target="_blank"><i class="fab fa-github"></i></a>
+                                  <a href="images/portfolio/mp3ytdl.png" class="link" data-lightbox="image-bot-mp3yt"><i
+                                      class="far fa-eye"></i></a>
+                                  <a href="https://t.me/mp3ytdl_bot" class="link" target="_blank"><i class="fa fa-link"
+                                      aria-hidden="true"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4 mix python tkinter">
+                            <div class="contenedor-img look-portfolio mx-auto">
+                              <img src="images/portfolio/alarma-btc.png" class="img-fluid">
+                              <div class="mascara">
+                                <h2>Python - Tkinter</h2>
+                                <p>{{ myPortfolio[0].alarmabtc }}</p>
+                                <div class="link-bottom">
+                                  <a href="https://github.com/LeoLeiva/Alarm-for-bitcoin-variation" class="link"
+                                    target="_blank"><i class="fab fa-github"></i></a>
+                                  <a href="images/portfolio/alarma-btc.png" class="link"
+                                    data-lightbox="image-alarma-btc"><i class="far fa-eye"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <picture>
+                            <source srcset="images/portfolio/prestagenda.webp" type="image/webp">
+                            <source srcset="images/portfolio/prestagenda.png" type="image/png">
+                          </picture>
+                          <picture>
+                            <source type="image/webp" srcset="images/portfolio/prestagenda.webp">
+                            <source type="image/png" srcset="images/portfolio/prestagenda.png" class="img-fluid">
+                            <!-- <img src="images/portfolio/prestagenda.png" class="img-fluid"> -->
+                          </picture>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Portfolio Section-->
+
+      <!--Start Contact Section-->
+      <section class="contact footer pp-scrollable section" id="contact">
+        <div class="content-container">
+          <div class="display-table">
+            <div class="display-content">
+              <div class="contact-header">
+                <div class="title-small">
+                  <p>GET IN TOUCH</p>
+                </div>
+                <h4 class="section-title">{{ myContact[0].title }}</h4>
+              </div>
+              <div class="contact-content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                      <div class="contact-detail">
+                        <h6>{{ myContact[0].contact }}</h6>
+                        <p class="phone">
+                          <i class="fa fa-phone" aria-hidden="true"></i>
+                          <span>{{ myContact[0].phone }}:</span>(+54)351-6200346
+                        </p>
+                        <p class="email">
+                          <i class="fas fa-envelope" aria-hidden="true"></i>
+                          <span>Email:</span>leocableiva@gmail.com
+                        </p>
+                        <p>
+                          <i class="fa fa-globe" aria-hidden="true"></i>
+                          <span>Web:</span><a href="https://www.leoleiva.ar">www.leoleiva.ar</a>
+                        </p>
+                        <div class="social-icons">
+                          <p>{{ myContact[0].networks }}:</p>
+                          <a href="https://www.facebook.com/LeoLeivaCAB"><i class="fab fa-facebook-f"></i></a>
+                          <a href="https://twitter.com/LeoLeivaCAB"><i class="fab fa-twitter"></i></a>
+                          <a href="https://github.com/LeoLeiva"><i class="fab fa-github"></i></a>
+                          <a href="https://www.linkedin.com/in/leoleivacab/"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="https://api.whatsapp.com/send?phone=543516200346"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                      <div class="contact-form">
+                        <form class="contact-form-area" action="contact.php" method="post">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <input type="text" name="name" :placeholder="[[ myContact[0].name ]]" id="form-name" />
+                            </div>
+                            <div class="col-md-6">
+                              <input type="text" name="email" placeholder="Email" id="form-email" />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <textarea :placeholder="[[ myContact[0].msg ]]" name="message"
+                                id="form-message"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="result"></div>
+                            </div>
+                            <!-- <div class="col-md-8">
+                            <div class="g-recaptcha" data-sitekey="6Led8dUZAAAAAIyesAzvFku70F3YSYxYUO-DyQhO"></div>
+                          </div> -->
+                            <div class="col-md-4">
+                              <input type="submit" class="btn submit-btn btn-style1 clearfix"
+                                :value="[[ myContact[0].send ]]" id="contact-submit" />
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Start Footer-->
+              <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="copyright">
+                        <p class="copyright_responsive"
+                          data-desktoptext="Copyright © 2020 | https://www.leoleiva.ar | All rights reserved"
+                          data-tablettext="Copyright © 2020 | All rights reserved" data-phonetext="Copyright © 2020">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              <!--End Footer-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Contact Section-->
+    </div>
+  </div>
+  <!-- Vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!--javascript-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/animatedModal.min.js"></script>
+  <script src="js/jquery.pagepiling.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/particles.min.js"></script> -->
+  <script src="js/main.js"></script>
+  <script src="js/language.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Bootstrap-Unidad-2</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Mi estilo CSS -->
+    <link rel="stylesheet" href="Bootstrap-Unidad-2.css" />
+  </head>
+
+  <body>
+    <!-- formulario -->
+    <div class="container bg-light p-3 m-5 justify-content-center mx-auto">
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label id="name" for="firstName">Nombre de pila</label>
+            <input type="text" class="form-control" id="firstName" required />
+            <div class="invalid-feedback">Valid first name is required.</div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              placeholder=""
+              value=""
+              required
+            />
+            <div class="invalid-feedback">Valid last name is required.</div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="username">Nombre de usuario</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="Nombre de usuario"
+              required
+            />
+            <div class="invalid-feedback" style="width: 100%">
+              Your username is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email"
+            >Correo electrónico
+            <span class="text-muted">(Opcional)</span></label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="you@example.com"
+            maxlength="20"
+            minlength="10"
+            required
+          />
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="address">Habla a</label>
+          <input
+            type="text"
+            class="form-control"
+            id="address"
+            placeholder="1234 Main St"
+            required
+          />
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address2"
+            >Dirección 2 <span class="text-muted">(Opcional)</span></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="address2"
+            placeholder="Apartmento o suite"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">País</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">Escoger...</option>
+              <option>Argentina</option>
+            </select>
+            <div class="invalid-feedback">Please select a valid country.</div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state">Estado</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Escoger...</option>
+              <option>Córdoba</option>
+            </select>
+            <div class="invalid-feedback">Please provide a valid state.</div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Código Postal</label>
+            <input
+              type="number"
+              class="form-control"
+              id="zip"
+              placeholder=""
+              max="20"
+              maxlength="3"
+              required
+            />
+            <div class="invalid-feedback">Zip code required.</div>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="same-address"
+          />
+          <label class="custom-control-label" for="same-address"
+            >La dirección de envío es la misma que que mi dirección de
+            facturación</label
+          >
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="save-info" />
+          <label class="custom-control-label" for="save-info"
+            >Guarde esta información para la próxima vez</label
+          >
+        </div>
+        <hr class="mb-4" />
+        <div class="row justify-content-between">
+          <div class="col-4">
+            <input
+              type="reset"
+              class="btn btn-danger btn-block"
+              value="Reset"
+            />
+          </div>
+          <div class="col-4">
+            <input type="submit" class="btn btn-success btn-block" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- </div> -->
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap-TP2.js"></script>
+  </body>
+</html>

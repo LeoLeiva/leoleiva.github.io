@@ -1,0 +1,465 @@
+@media screen and (max-width: 1199px) {
+  /*--------------header------------------*/
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /*--------------about----------------*/
+  .about .img-overlay {
+    height: 82%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /*--------------welcome-area----------------*/
+  .welcome-overlay {
+    display: none;
+  }
+  /*--------------contact----------------*/
+  .contact-form-area {
+    padding: 36px 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /*--------------welcome area----------------*/
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /*--------------header----------------*/
+  header #header-info-bar {
+    width: 40% !important;
+    left: 60% !important;
+  }
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*--------------about----------------*/
+  .about-content {
+    margin-top: 76px;
+  }
+  .about .img-overlay {
+    height: 101%;
+  }
+  .about .progressbar-area {
+    margin-bottom: 70px;
+  }
+  .about-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    max-width: 60%;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio-item:hover .overlay-content-item {
+    transform: translateY(0%);
+  }
+  /*--------------blog----------------*/
+  .blog-single-item.blog-item-margin {
+    margin-bottom: 50px;
+  }
+  .blog-single-item .blog-text a {
+    margin-top: 8px;
+  }
+  .blog-text {
+    margin-top: 32px;
+  }
+  .blog-img.right::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0 14px;
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    left: 48%;
+    top: 0px;
+  }
+  .blog-img.left::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    left: 48%;
+    bottom: 0px;
+    border-color: transparent transparent #ffffff transparent;
+    border-width: 0 14px 14px 14px;
+  }
+  /*--------------contact----------------*/
+  .contact-detail p {
+    margin-bottom: 18px;
+  }
+
+  .contact-detail {
+    margin-bottom: 50px;
+  }
+  .contact textarea {
+    margin-top: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /*--------------header----------------*/
+  #header-info-btn {
+    margin-right: 17px;
+  }
+  /*--------------blog----------------*/
+  .blog-img.left::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 14px 0;
+    border-color: transparent #ffffff transparent transparent;
+    position: absolute;
+    right: 0px;
+    top: 46%;
+  }
+  .blog-img img {
+    transition: all 0.5s;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+  /*--------------about----------------*/
+  .img-hover {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    height: 82%;
+    top: 9px;
+    z-index: 2;
+    left: 9px;
+    transform: scale(0);
+    transition: all 0.5s;
+    margin: auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+  /*--------------pagepile----------------*/
+  .portfolio-item:hover .overlay-content-item {
+    transform: translateY(10%);
+  }
+}
+@media only screen and (max-width: 1320px) and (min-width: 1200px) {
+  /*--------------pagepile----------------*/
+  #pp-nav.right {
+    right: -30px;
+  }
+}
+@media only screen and (max-width: 1120px) and (min-width: 992px) {
+  /*--------------pagepile----------------*/
+  #pp-nav.right {
+    right: -40px;
+  }
+  /*--------------title small----------------*/
+  .title-small {
+    left: -120px;
+  }
+}
+@media only screen and (max-width: 890px) and (min-width: 768px) {
+  /*--------------pagepile----------------*/
+  #pp-nav.right {
+    right: -41px;
+  }
+  /*--------------title small----------------*/
+  .title-small {
+    left: -114px;
+  }
+}
+@media only screen and (max-width: 708px) and (min-width: 576px) {
+  /*--------------pagepile----------------*/
+  #pp-nav.right {
+    right: -41px;
+  }
+}
+@media only screen and (max-width: 662px) and (min-width: 576px) {
+  .title-small {
+    left: -120px;
+  }
+}
+@media only screen and (max-width: 1270px) and (min-width: 1200px) {
+  /*--------------title small----------------*/
+  .title-small {
+    position: absolute;
+    top: 50%;
+    width: 280px;
+    left: -124px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /*--------------about----------------*/
+  .about .skills {
+    max-width: 90%;
+  }
+  .about-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /*--------------header----------------*/
+  header #header-info-bar {
+    width: 100% !important;
+    left: 0% !important;
+  }
+  /*--------------service----------------*/
+  .service .item {
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  .service-header a {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  /*--------------about---------------*/
+  .about-text {
+    padding-right: 0px;
+  }
+  /*--------------testimonial----------------*/
+  .testimonial-content {
+    margin: 0px 20px;
+  }
+  /*--------------work----------------*/
+  .work .video-container {
+    padding-bottom: 60px;
+  }
+  /*--------------experience----------------*/
+  .experience {
+    margin-top: 60px;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio-content-head ul li {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  /*--------------title small----------------*/
+  .title-small {
+    display: none;
+  }
+  /*--------------papepile----------------*/
+  #pp-nav.right {
+    right: -38px;
+  }
+  /*--------------welcome area----------------*/
+  .welcome-text {
+    padding: 0px 20px;
+  }
+  .welcome-area .overlayImg {
+    position: absolute;
+    width: 100%;
+  }
+  .welcome-area #typed {
+    line-height: 38px;
+    font-size: 38px;
+  }
+  .welcome-area .type-wrap {
+    margin-bottom: 12px;
+    margin-top: 50px;
+    font-family: "Martel", serif;
+  }
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 38px;
+  }
+  /*-----------------about-------------------*/
+  .about-img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-content {
+    margin-top: 76px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-img img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .about .img-overlay {
+    height: 101%;
+    display: none;
+  }
+  .img-hover {
+    width: 85%;
+    height: 95%;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+  }
+
+  .about-content {
+    margin-top: 50px;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio-content-items {
+    margin: 0px 7px;
+  }
+  .contact-content {
+    padding-top: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 464px) {
+  /*--------------welcome-area----------------*/
+  .welcome-text h1 {
+    font-size: 40px;
+    margin-top: 58px;
+  }
+  .welcome-area #typed {
+    line-height: 64px;
+  }
+  .welcome-text a {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+  }
+
+  /*--------------portfolio----------------*/
+  .magnify-icon p {
+    top: 63%;
+  }
+
+  /*-------------client-testimonial----------------*/
+  .client-testimonial .testimonial-header {
+    padding-bottom: 16px;
+    width: 100vw;
+  }
+  .client-testimonial .testimonial-header .section-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    font-family: "Martel", serif;
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /*--------------welcome-area----------------*/
+  .welcome-overlay {
+    display: none;
+  }
+  /*--------------contact----------------*/
+  .contact-form-area {
+    padding: 36px 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /*--------------welcome area----------------*/
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio .magnify-icon p {
+    top: 50%;
+  }
+
+  /*--------------blog----------------*/
+  .blog-single-item.blog-item-margin {
+    margin-bottom: 50px;
+  }
+  .blog-single-item .blog-text a {
+    margin-top: 8px;
+  }
+  /*--------------contact----------------*/
+  .contact-detail p {
+    margin-bottom: 18px;
+  }
+
+  .contact-detail {
+    margin-bottom: 50px;
+  }
+  .contact textarea {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*--------------about----------------*/
+  .about .skills {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*--------------service----------------*/
+  .service .item {
+    margin-left: 0px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 464px) {
+  /*--------------welcome-area----------------*/
+  .welcome-text h1 {
+    font-size: 40px;
+    margin-top: 58px;
+  }
+  .welcome-area #typed {
+    line-height: 48px;
+  }
+  .welcome-text a {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+  }
+  /*--------------resume----------------*/
+  .res-descripcion {
+    width: 200px;
+  }
+  /*--------------portfolio----------------*/
+  .magnify-icon p {
+    top: 63%;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-height: 451px) {
+  /*--------------footer----------------*/
+  .copyright_responsive:before {
+    content: attr(data-tablettext);
+    text-align: center;
+    color: #ddd;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /*--------------footer----------------*/
+  .copyright_responsive:before {
+    content: attr(data-phonetext);
+    text-align: center;
+    color: #ddd;
+    font-weight: 500;
+  }
+}
