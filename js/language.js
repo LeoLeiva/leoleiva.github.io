@@ -19,7 +19,7 @@ const myLanguage = {
               operating Windows, I also manage Linux with its distro
               Ubuntu, which I have a repair title and
               PC maintenance, I will show my knowledge in
-              networks, e-commerse, in programming languages ​​such
+              networks, e-commerce, in programming languages ​​such
               like HTML5, CSS3, JavaScript and my Python specialty
               with knowledge of Flask and great command of Tkinter and
               Django.`, spanish: 'SPANISH (NATIVE)', english: 'ENGLISH (INTERMEDIATE)'
@@ -63,7 +63,7 @@ const myLanguage = {
         operativo Windows, tambien manejo Linux con su distro
         Ubuntu, que tengo un título de reparación y
         mantenimiento de PC, mostraré mis conocimientos en
-        redes, e-commerse, en lenguajes de programación tales
+        redes, e-commerce, en lenguajes de programación tales
         como HTML5, CSS3, JavaScript y mi especialidad Python
         con conocimiento de Flask y gran dominio de Tkinter y
         Django.`, spanish: 'ESPAÑOL (NATIVO)', english: 'INGLES (INTERMEDIO)'
@@ -107,9 +107,9 @@ const myTraduce = new Vue({
     },
     mounted () {
         this.$nextTick(() => {
-          this.initParticleJS()	
+          this.initParticleJS()
       })
-      
+
     },
     methods: {
         initParticleJS () {
@@ -252,4 +252,4 @@ const myTraduce = new Vue({
         }
     }
   })
-    
+
