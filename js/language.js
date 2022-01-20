@@ -1,6 +1,6 @@
 const myLanguage = {
     'en': {
-        navMenu: [{ home: 'Home', about: 'About', skills: 'Skills', resume: 'Resume', portfolio: 'Portfolio', contact: 'Contact', CV: 'You can download my CV', downloadCV: 'Download CV' }],
+        navMenu: [{ home: 'Home', about: 'About', skills: 'Skills', resume: 'Resume', portfolio: 'Portfolio', contact: 'Contact', CV: 'You can download my CV', downloadCV: 'Download CV', linkCV: 'https://www.leoleiva.ar/CV-LeoLeiva-eng.pdf' }],
         myWelcome: [{ welcome: 'Welcome to my web 2.0' }],
         aboutMe: [{
             title: 'About me', about: `My name is Leonel Leiva, I was born on the 152nd (hundredth
@@ -27,11 +27,22 @@ const myLanguage = {
         mySkills: [{ title: 'My Skills' }],
         myResume: [{ title: 'Resume' }],
         myStudy: [{
-            studies: 'Studies', finishjava: 'Currently studying', python: 'Python Developer', finishpython: '80 hour course',
-            certpython: 'See certifier', titleaes: 'Title: PC repair and maintenance technique.', titlecassa: 'Title: Technician in Electricity and Electronics.\nTelecommunications Specialty'
+            studies: 'Studies', finishjava: '198 hour course', python: 'Python Developer', finishpython: '80 hour course',
+            seecert: 'See certifier', titleaes: 'Title: PC repair and maintenance technique.', titlecassa: 'Title: Technician in Electricity and Electronics.\nTelecommunications Specialty'
         }],
         myExperience: [{
-            experience: 'Experience', current: 'Current', technical: 'Independent / Freelance', descriptiontech: 'Cell phone and computer technical service. Sale and Advice.',
+            experience: 'Experience', current: 'Current', technical: 'Independent / Freelance',
+            positioninvera: 'Back-end Developer',
+            descriptioninvera: 'January 2021 to present\nPython/Django - DRF - Postgresql - Gitlab - Docker - Agile Methodologies',
+            positionpotenciar: 'Fullstack Developer',
+            descriptionpotenciar: 'November 2020 to January 2021\nPython/Django - DRF - React - MySQL - Github',
+            positionfreelance: 'Freelance',
+            descriptionfreelance: `Development of own projects and scripts
+Some can be seen in my Github portfolio.
+Backend Python/Django - DRF - APIs - Bootstrap -
+Vue - MySQL - Web scraping -
+Automation with selenium and Beautifulsoup`,
+            descriptiontech: 'Cell phone and computer technical service. Sale and Advice.',
             descriptioncell: 'Customer service, cell phone sales and repair, software upload.'
         }],
         myPortTitle: [{ all: 'ALL' }],
@@ -44,7 +55,7 @@ const myLanguage = {
 
     },
     'es': {
-        navMenu: [{ home: 'Inicio', about: 'Sobre mi', skills: 'Habilidades', resume: 'Resumen', portfolio: 'Portfolio', contact: 'Contacto', CV: 'Podes descargar mi CV', downloadCV: 'Descargar CV' }],
+        navMenu: [{ home: 'Inicio', about: 'Sobre mi', skills: 'Habilidades', resume: 'Resumen', portfolio: 'Portfolio', contact: 'Contacto', CV: 'Podes descargar mi CV', downloadCV: 'Descargar CV', linkCV: 'https://www.leoleiva.ar/CV-LeoLeiva.pdf' }],
         myWelcome: [{ welcome: 'Bienvenidos a mi web 2.0' }],
         aboutMe: [{
             title: 'Sobre mi', about: `Mi nombre es Leonel Leiva, nací el 152º (centésimo
@@ -70,9 +81,21 @@ const myLanguage = {
         }],
         mySkills: [{ title: 'Mis Habilidades' }],
         myResume: [{ title: 'Resumen' }],
-        myStudy: [{ studies: 'Estudios', finishjava: 'Cursando actualmente', python: 'Desarrollador Python', finishpython: 'Curso de 80 hs reloj', certpython: 'Ver certificado', titleaes: 'Titulo: Tecnico en reparacion y mantenimiento de PC', titlecassa: 'Titulo: Tecnico en Electricidad y Electronica.\nEspecialidad en Telecomunicaciones' }],
+        myStudy: [{ studies: 'Estudios', finishjava: 'Curso de 198 hs reloj', python: 'Desarrollador Python', finishpython: 'Curso de 80 hs reloj', seecert: 'Ver certificado', titleaes: 'Titulo: Tecnico en reparacion y mantenimiento de PC', titlecassa: 'Titulo: Tecnico en Electricidad y Electronica.\nEspecialidad en Telecomunicaciones' }],
         myExperience: [{
-            experience: 'Experiencia', current: 'Actual', technical: 'Independiente / Freelance', descriptiontech: 'Servicio técnico de telefonía celular y computación. Venta y Asesoramiento.',
+            experience: 'Experiencia', current: 'Actual', technical: 'Independiente / Autonomo',
+            positioninvera: 'Back-end Developer',
+            descriptioninvera: 'Enero 2021 hasta la actualidad\nPython/Django - DRF - Postgresql - Gitlab - Docker - Metodologias Agiles',
+            positionpotenciar: 'Fullstack Developer',
+            descriptionpotenciar: 'Noviembre 2020 a Enero 2021\nPython/Django - DRF - React - MySQL - Github - Metodologias Agiles',
+            positionfreelance: 'Freelance',
+            descriptionfreelance: `Desde 2018 hasta 2020 intermitente.
+Desarrollo de proyectos propios y scripts
+Algunos se pueden ver en mi portfolio de Github
+Python/Django - DRF - APIs - Bootstrap -
+Vue - MySQL - Web scraping -
+Automation con selenium y Beautifulsoup`,
+            descriptiontech: 'Servicio técnico de telefonía celular y computación. Venta y Asesoramiento.',
             descriptioncell: 'Atención al cliente, ventas y reparación de telefonos celulares, carga de software.'
         }],
         myPortTitle: [{ all: 'TODO' }],
