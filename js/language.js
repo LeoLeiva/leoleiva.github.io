@@ -33,7 +33,7 @@ const myLanguage = {
         myExperience: [{
             experience: 'Experience', current: 'Current', technical: 'Independent / Freelance',
             positionmoni: 'Fullstack Developer',
-            descriptionmoni: 'July 2022 to present\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Agile Methodologies',
+            descriptionmoni: 'July 2022 to present\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Microservices - Agile Methodologies',
             positioninvera: 'Back-end Developer',
             descriptioninvera: 'January 2021 to June 2022\nPython/Django - DRF - Postgresql - Gitlab - Docker - Agile Methodologies',
             positionpotenciar: 'Fullstack Developer',
@@ -87,7 +87,7 @@ Automation with selenium and Beautifulsoup`,
         myExperience: [{
             experience: 'Experiencia', current: 'Actual', technical: 'Independiente / Autonomo',
             positionmoni: 'Fullstack Developer',
-            descriptionmoni: 'Julio 2022 hasta la actualidad\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Metodologias Agiles',
+            descriptionmoni: 'Julio 2022 hasta la actualidad\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Microservicios - Metodologias Agiles',
             positioninvera: 'Back-end Developer',
             descriptioninvera: 'Enero 2021 hasta Junio 2022\nPython/Django - DRF - Postgresql - Gitlab - Docker - Metodologias Agiles',
             positionpotenciar: 'Fullstack Developer',
