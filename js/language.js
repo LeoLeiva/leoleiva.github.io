@@ -31,19 +31,26 @@ const myLanguage = {
             seecert: 'See certifier', titleaes: 'Title: PC repair and maintenance technique.', titlecassa: 'Title: Technician in Electricity and Electronics.\nTelecommunications Specialty'
         }],
         myExperience: [{
+            positionrightfully: 'Fullstack Developer',
+            descriptionrightfully: 'July 2023 to present\nPython/Django - DRF - Javascript - Postgresql - Bitbucket - Docker - Microservices',
+            yearrightfully: '2023-Current',
             experience: 'Experience', current: 'Current', technical: 'Independent / Freelance',
             positionmoni: 'Fullstack Developer',
-            descriptionmoni: 'July 2022 to present\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Microservices - Agile Methodologies',
+            descriptionmoni: 'July 2022 to March 2023\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Microservices - Agile Methodologies',
+            yearmoni: '2022-2023',
             positioninvera: 'Back-end Developer',
             descriptioninvera: 'January 2021 to June 2022\nPython/Django - DRF - Postgresql - Gitlab - Docker - Agile Methodologies',
+            yearinvera: '2021-2022',
             positionpotenciar: 'Fullstack Developer',
             descriptionpotenciar: 'November 2020 to January 2021\nPython/Django - DRF - React - MySQL - Github',
+            yearpotenciar: '2020-2021',
             positionfreelance: 'Freelance',
             descriptionfreelance: `Development of own projects and scripts
 Some can be seen in my Github portfolio.
 Backend Python/Django - DRF - APIs - Bootstrap -
 Vue - MySQL - Web scraping -
 Automation with selenium and Beautifulsoup`,
+            yearfreelance: '2009-2018',
             descriptiontech: 'Cell phone and computer technical service. Sale and Advice.',
             descriptioncell: 'Customer service, cell phone sales and repair, software upload.'
         }],
@@ -85,13 +92,19 @@ Automation with selenium and Beautifulsoup`,
         myResume: [{ title: 'Resumen' }],
         myStudy: [{ studies: 'Estudios', finishjava: 'Curso de 198 hs reloj', python: 'Desarrollador Python', finishpython: 'Curso de 80 hs reloj', seecert: 'Ver certificado', titleaes: 'Titulo: Tecnico en reparacion y mantenimiento de PC', titlecassa: 'Titulo: Tecnico en Electricidad y Electronica.\nEspecialidad en Telecomunicaciones' }],
         myExperience: [{
+            positionrightfully: 'Fullstack Developer',
+            descriptionrightfully: 'July 2023 hasta la actualidad\nPython/Django - DRF - Javascript - Postgresql - Bitbucket - Docker - Microservices',
+            yearrightfully: '2023-Actual',
             experience: 'Experiencia', current: 'Actual', technical: 'Independiente / Autonomo',
             positionmoni: 'Fullstack Developer',
-            descriptionmoni: 'Julio 2022 hasta la actualidad\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Microservicios - Metodologias Agiles',
+            descriptionmoni: 'Julio 2022 hasta Marzo 2023\nPython/Django - DRF - ReactJS - Javascript - Kubernetes - Postgresql - MySQL - Gitlab - Docker - Microservicios - Metodologias Agiles',
+            yearmoni: '2022-2023',
             positioninvera: 'Back-end Developer',
             descriptioninvera: 'Enero 2021 hasta Junio 2022\nPython/Django - DRF - Postgresql - Gitlab - Docker - Metodologias Agiles',
+            yearinvera: '2021-2022',
             positionpotenciar: 'Fullstack Developer',
             descriptionpotenciar: 'Noviembre 2020 a Enero 2021\nPython/Django - DRF - React - MySQL - Github - Metodologias Agiles',
+            yearpotenciar: '2020-2021',
             positionfreelance: 'Freelance',
             descriptionfreelance: `Desde 2018 hasta 2020 intermitente.
 Desarrollo de proyectos propios y scripts
@@ -99,6 +112,7 @@ Algunos se pueden ver en mi portfolio de Github
 Python/Django - DRF - APIs - Bootstrap -
 Vue - MySQL - Web scraping -
 Automation con selenium y Beautifulsoup`,
+            yearfreelance: '2018-2020',
             descriptiontech: 'Servicio técnico de telefonía celular y computación. Venta y Asesoramiento.',
             descriptioncell: 'Atención al cliente, ventas y reparación de telefonos celulares, carga de software.'
         }],
